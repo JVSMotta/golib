@@ -1,8 +1,8 @@
-package main
+package version 
 
 import ("fmt"
 	"runtime")
 
-func version(){
+func Version(){
 	fmt.Println(runtime.Version())
 }
