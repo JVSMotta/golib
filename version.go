@@ -3,6 +3,6 @@ package main
 import ("fmt"
 	"runtime")
 
-func main(){
+func version(){
 	fmt.Println(runtime.Version())
 }
