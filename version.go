@@ -1,4 +1,4 @@
-package version 
+package golib
 
 import ("fmt"
 	"runtime")
