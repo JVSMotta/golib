@@ -1,8 +1,8 @@
 package golib
 
-import ("fmt"
-	"runtime")
+import "runtime"
 
-func version(){
-	fmt.Println(runtime.Version())
+// Version retorna a versão do Go (note o V maiúsculo para exportar)
+func Version() string {
+    return runtime.Version()
 }
